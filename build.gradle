@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+
+dependencies {
+   testImplementation  fileTree(dir: 'lib', include: ['*.jar'])
+}
